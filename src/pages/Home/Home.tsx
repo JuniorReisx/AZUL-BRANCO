@@ -235,7 +235,7 @@ export function Home() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-navy-900 to-blue-800"></div>
         <div className="absolute inset-0 opacity-20">
-          <img src="/api/placeholder/1920/1080" alt="Background texture" className="w-full h-full object-cover" />
+          <img src="https://th.bing.com/th/id/OIP.Lhmgf9kXdh0rOykwpemzXwHaFj?rs=1&pid=ImgDetMain" alt="Background texture" className="w-full h-full object-cover" />
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center text-white max-w-3xl mx-auto">
