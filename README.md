@@ -1,54 +1,61 @@
-# React + TypeScript + Vite
+# 🛍️ ClothingStore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ClothingStore é um e-commerce moderno para venda de roupas, desenvolvido com React, Vite e Tailwind CSS. O objetivo do projeto é oferecer uma experiência de compra fluida, responsiva e com visual atrativo.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi construído com as seguintes tecnologias:
 
-## Expanding the ESLint configuration
+- [React 19](https://react.dev)
+- [React Router DOM](https://reactrouter.com/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React](https://lucide.dev/)
+- [ESLint](https://eslint.org/)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📦 Scripts disponíveis
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+No diretório do projeto, você pode rodar:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### `npm run dev`
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Inicia o servidor de desenvolvimento local.\
+Abra [http://localhost:5173](http://localhost:5173) para visualizar no navegador.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### `npm run build`
+
+Compila a aplicação para produção. Os arquivos serão gerados na pasta `dist/`.
+
+### `npm run preview`
+
+Roda o projeto já construído em um servidor local para testes.
+
+### `npm run lint`
+
+Executa o linter com ESLint para verificar problemas de estilo e boas práticas no código.
+
+## 📁 Estrutura do Projeto
+
+A estrutura inicial do projeto está organizada para facilitar a escalabilidade e manutenção, com diretórios para componentes, páginas, estilos e rotas.
+
+## 🎯 Objetivo
+
+O projeto tem como foco principal:
+
+- Vender roupas com uma interface limpa e responsiva
+- Permitir navegação intuitiva entre produtos
+- Simular um fluxo de compra moderno
+
+## 📸 Em breve
+
+- Página de listagem de produtos
+- Página de detalhes
+- Carrinho de compras
+- Checkout
+- Integração com API ou backend mockado
+
+---
+
+Desenvolvido com 💙 por [JuniorReis](https://github.com/JuniorReisx)
+
