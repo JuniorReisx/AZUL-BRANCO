@@ -1,10 +1,8 @@
 # 🛍️ ClothingStore
 
-ClothingStore é um e-commerce moderno para venda de roupas, desenvolvido com React, Vite e Tailwind CSS. O objetivo do projeto é oferecer uma experiência de compra fluida, responsiva e com visual atrativo.
+ClothingStore is a modern clothing e-commerce project built with React, Vite, and Tailwind CSS. The goal is to deliver a clean, fast, and responsive shopping experience.
 
-## 🚀 Tecnologias
-
-Este projeto foi construído com as seguintes tecnologias:
+## 🚀 Technologies
 
 - [React 19](https://react.dev)
 - [React Router DOM](https://reactrouter.com/)
@@ -14,48 +12,38 @@ Este projeto foi construído com as seguintes tecnologias:
 - [Lucide React](https://lucide.dev/)
 - [ESLint](https://eslint.org/)
 
-## 📦 Scripts disponíveis
+## 📦 Available Scripts
 
-No diretório do projeto, você pode rodar:
+In the project directory, you can run:
 
 ### `npm run dev`
 
-Inicia o servidor de desenvolvimento local.\
-Abra [http://localhost:5173](http://localhost:5173) para visualizar no navegador.
+Runs the app in development mode.\
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 ### `npm run build`
 
-Compila a aplicação para produção. Os arquivos serão gerados na pasta `dist/`.
+Builds the app for production to the `dist` folder.
 
 ### `npm run preview`
 
-Roda o projeto já construído em um servidor local para testes.
+Runs a local server to preview the production build.
 
 ### `npm run lint`
 
-Executa o linter com ESLint para verificar problemas de estilo e boas práticas no código.
+Checks the code for linting errors using ESLint.
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
-A estrutura inicial do projeto está organizada para facilitar a escalabilidade e manutenção, com diretórios para componentes, páginas, estilos e rotas.
+Organized for scalability, with clear separation of components, pages, routes, and styles.
 
-## 🎯 Objetivo
+## 📌 Upcoming Features
 
-O projeto tem como foco principal:
+- Product list and detail pages
+- Shopping cart functionality
+- Checkout flow
+- API or mock backend integration
 
-- Vender roupas com uma interface limpa e responsiva
-- Permitir navegação intuitiva entre produtos
-- Simular um fluxo de compra moderno
-
-## 📸 Em breve
-
-- Página de listagem de produtos
-- Página de detalhes
-- Carrinho de compras
-- Checkout
-- Integração com API ou backend mockado
-
----
 
 Desenvolvido com 💙 por [JuniorReis](https://github.com/JuniorReisx)
 
