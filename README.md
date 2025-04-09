@@ -1,54 +1,49 @@
-# React + TypeScript + Vite
+# 🛍️ ClothingStore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ClothingStore is a modern clothing e-commerce project built with React, Vite, and Tailwind CSS. The goal is to deliver a clean, fast, and responsive shopping experience.
 
-Currently, two official plugins are available:
+## 🚀 Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React 19](https://react.dev)
+- [React Router DOM](https://reactrouter.com/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React](https://lucide.dev/)
+- [ESLint](https://eslint.org/)
 
-## Expanding the ESLint configuration
+## 📦 Available Scripts
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+In the project directory, you can run:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### `npm run dev`
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Runs the app in development mode.\
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### `npm run build`
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Builds the app for production to the `dist` folder.
+
+### `npm run preview`
+
+Runs a local server to preview the production build.
+
+### `npm run lint`
+
+Checks the code for linting errors using ESLint.
+
+## 📁 Project Structure
+
+Organized for scalability, with clear separation of components, pages, routes, and styles.
+
+## 📌 Upcoming Features
+
+- Product list and detail pages
+- Shopping cart functionality
+- Checkout flow
+- API or mock backend integration
+
+
+Desenvolvido com 💙 por [JuniorReis](https://github.com/JuniorReisx)
+
